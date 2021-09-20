@@ -20,6 +20,8 @@ CREATE TABLE General.Messages(
 );
 
 INSERT INTO General.Series VALUES (default,'Versus',default,default)
+INSERT INTO General.Messages (Message_Id,Title,Speaker,Series_Id,Created_At,Last_Updated) VALUES (default,'Love of God and wrath','Robbie Nutter','177c5a6c-14ea-4aea-ab2f-43f4209cd10c',default,default)
+SELECT * FROM General.Messages
 
 SELECT * FROM General.Series;
 
